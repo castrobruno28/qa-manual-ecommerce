@@ -51,6 +51,7 @@ As capturas de tela dos testes estão armazenadas na pasta `evidence/`.
 - CT-002: `evidence/ct-002-login-senha-invalida.png`
 - CT-003: `evidence/ct-003-login-campos-vazios.png`
 - CT-004: `evidence/BUG-001-imagem-descricao-camisa.png`
+- CT-005: `evidence/ct-005-ordenacao-preco-crescente.png`
 
 A captura do CT-004 também é utilizada como evidência compartilhada nos registros BUG-001, BUG-002 e BUG-003, pois apresenta as três divergências observadas.
 
