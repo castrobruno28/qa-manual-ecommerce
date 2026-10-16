@@ -19,6 +19,7 @@ Serão avaliadas as seguintes funcionalidades:
 
 - Autenticação e login
 - Exibição e navegação dos produtos
+- Consistência entre imagens e descrições dos produtos
 - Ordenação dos produtos
 - Adição e remoção de itens do carrinho
 - Conferência dos itens no carrinho
