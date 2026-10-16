@@ -152,4 +152,33 @@ Status: Aprovado.
 
 Observações: Os preços inicial e final corresponderam ao comportamento esperado. Recomenda-se verificar também os preços intermediários.
 
+7. CT-006 — Adicionar produto ao carrinho
+
+Objetivo: Verificar se o usuário consegue adicionar um produto ao carrinho de compras.
+
+Pré-condições:
+- Usuário autenticado no sistema.
+- Página de produtos aberta.
+
+Passos para execução:
+1. Acessar a página de produtos.
+2. Localizar o produto *Sauce Labs Backpack*.
+3. Clicar no botão "Add to cart".
+4. Verificar o botão do produto e o indicador do carrinho.
+
+Resultado esperado:
+- O produto é adicionado ao carrinho.
+- O botão muda de "Add to cart" para "Remove".
+- O indicador do carrinho apresenta o número "1".
+
+Resultado obtido:
+- O produto foi adicionado com sucesso.
+- O botão mudou para "Remove".
+- O indicador do carrinho apresentou o número "1".
+
+Status: Aprovado.
+
+Evidência: [CT-006 — Produto adicionado ao carrinho](evidence/ct-006-produto-adicionado-carrinho.png)
+
+
 
