@@ -162,7 +162,7 @@ Pré-condições:
 
 Passos para execução:
 1. Acessar a página de produtos.
-2. Localizar o produto *Sauce Labs Backpack*.
+2. Localizar o produto "Sauce Labs Backpack".
 3. Clicar no botão "Add to cart".
 4. Verificar o botão do produto e o indicador do carrinho.
 
@@ -190,7 +190,7 @@ Pré-condições:
 
 Passos para execução:
 1. Acessar a página do carrinho.
-2. Localizar o produto *Sauce Labs Backpack*.
+2. Localizar o produto "Sauce Labs Backpack".
 3. Clicar no botão "Remove".
 4. Verificar se o produto foi removido da lista e se o carrinho ficou vazio.
 
@@ -205,6 +205,35 @@ Resultado obtido:
 Status: Aprovado.
 
 Evidência: [CT-007 — Produto removido do carrinho](evidence/ct-007-produto-removido-carrinho.png)
+
+9. CT-008 — Continuar comprando a partir do carrinho
+
+Objetivo: Verificar se o usuário consegue retornar à lista de produtos a partir do carrinho e continuar comprando.
+
+Pré-condições:
+- Usuário autenticado no sistema.
+- Produto *Sauce Labs Backpack* adicionado ao carrinho.
+
+Passos para execução:
+1. Acessar o carrinho de compras.
+2. Confirmar que o produto aparece no carrinho.
+3. Clicar no botão "Continue Shopping".
+4. Verificar se o sistema retorna à lista de produtos.
+5. Conferir se o indicador do carrinho continua mostrando 1 produto.
+
+Resultado esperado:
+- O sistema retorna à lista de produtos.
+- A lista é exibida normalmente.
+- O produto permanece no carrinho.
+
+Resultado obtido:
+- O sistema retornou à lista de produtos.
+- Os produtos foram exibidos normalmente.
+- O produto permaneceu no carrinho.
+
+Status: Aprovado.
+
+Evidência: [CT-008 — Continuar comprando](evidence/ct-008-continuar-comprando.png)
 
 
 
