@@ -259,3 +259,30 @@ Resultado obtido:
 Status: Aprovado.
 
 Evidência: [CT-009 — Detalhes do produto](evidence/ct-009-detalhes-produto.png)
+
+11. CT-010 — Checkout com campos obrigatórios vazios
+
+Objetivo: Verificar se o sistema impede o avanço no checkout quando os campos obrigatórios não são preenchidos.
+
+Pré-condições:
+- Usuário autenticado no sistema.
+- Produto adicionado ao carrinho.
+- Página de informações do checkout aberta.
+
+Passos para execução:
+1. Acessar o carrinho.
+2. Clicar em "Checkout".
+3. Deixar os campos First Name, Last Name e Zip/Postal Code vazios.
+4. Clicar em "Continue".
+5. Verificar a mensagem exibida pelo sistema.
+
+Resultado esperado:
+- O sistema impede o avanço para a próxima etapa.
+- Uma mensagem de validação informa que há um campo obrigatório não preenchido.
+
+Resultado obtido:
+- O sistema bloqueou o avanço e exibiu uma mensagem de validação.
+
+Status: Aprovado.
+
+Evidência: [CT-010 — Checkout com campos vazios](evidence/ct-010-checkout-campos-vazios.png)
