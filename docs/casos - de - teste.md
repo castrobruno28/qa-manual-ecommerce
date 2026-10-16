@@ -180,5 +180,31 @@ Status: Aprovado.
 
 Evidência: [CT-006 — Produto adicionado ao carrinho](evidence/ct-006-produto-adicionado-carrinho.png)
 
+8. CT-007 — Remover produto do carrinho
+
+Objetivo: Verificar se o usuário consegue remover um produto do carrinho de compras.
+
+Pré-condições:
+- Usuário autenticado no sistema.
+- Produto *Sauce Labs Backpack* adicionado ao carrinho.
+
+Passos para execução:
+1. Acessar a página do carrinho.
+2. Localizar o produto *Sauce Labs Backpack*.
+3. Clicar no botão "Remove".
+4. Verificar se o produto foi removido da lista e se o carrinho ficou vazio.
+
+Resultado esperado:
+- O produto é removido do carrinho.
+- O carrinho fica vazio.
+
+Resultado obtido:
+- O produto foi removido com sucesso.
+- O carrinho ficou vazio.
+
+Status: Aprovado.
+
+Evidência: [CT-007 — Produto removido do carrinho](evidence/ct-007-produto-removido-carrinho.png)
+
 
 
