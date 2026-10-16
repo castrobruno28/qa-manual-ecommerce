@@ -24,7 +24,7 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 | Não executados neste conjunto | 0 |
 | Taxa de aprovação | 75% |
 
-Observação: os números representam os três casos CT-001, CT-002 e CT-003 relatados como executados. O percentual não representa a cobertura total da aplicação.
+Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e CT-004 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
 
 4. Resultados por caso de teste
 
@@ -43,13 +43,16 @@ Observação: os números representam os três casos CT-001, CT-002 e CT-003 rel
 
 6. Evidências
 
-As capturas de tela dos casos executados devem ser armazenadas na pasta `evidence/` e vinculadas aos respectivos casos de teste.
+As capturas de tela dos testes estão armazenadas na pasta `evidence/`.
 
 - CT-001: `evidence/ct-001-login-aprovado.png`
 - CT-002: `evidence/ct-002-login-senha-invalida.png`
 - CT-003: `evidence/ct-003-login-campos-vazios.png`
+- CT-004: `evidence/BUG-001-imagem-descricao-camisa.png`
 
-Nota: confirmar os nomes e a existência dos arquivos no repositório antes de considerar todas as evidências vinculadas.
+A captura do CT-004 também é utilizada como evidência compartilhada nos registros BUG-001, BUG-002 e BUG-003, pois apresenta as três divergências observadas.
+
+Nota: confirmar que cada arquivo existe no repositório e que a captura corresponde ao cenário descrito.
 
 7. Defeitos em investigação
 
