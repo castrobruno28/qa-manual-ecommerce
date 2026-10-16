@@ -9,6 +9,7 @@ Casos de Teste — SauceDemo
 - Responsável: Bruno Castro
 - Status da execução: Não executado
 
+
 2. CT-001 — Login com credenciais válidas
 
 Objetivo: Validar o acesso com um usuário autorizado.
@@ -19,16 +20,21 @@ Pré-condições:
 
 Passos:
 1. Acessar https://www.saucedemo.com/.
-2. Informar um usuário válido.
+2. Informar o usuário `standard_user`.
 3. Informar a senha válida correspondente.
 4. Clicar em Login.
 
 Resultado esperado:
 O usuário deve acessar a área de produtos e visualizar a lista de itens disponíveis.
 
-Resultado obtido: A preencher após execução.
+Resultado obtido:
+Login realizado com sucesso e página com produtos exibida.
 
-Status: Não executado.
+Status: Aprovado.
+
+Evidência: Não capturada.
+
+Observações: O comportamento observado correspondeu ao resultado esperado.
 
 ---
 
