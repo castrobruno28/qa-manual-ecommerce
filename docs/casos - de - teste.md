@@ -286,3 +286,32 @@ Resultado obtido:
 Status: Aprovado.
 
 Evidência: [CT-010 — Checkout com campos vazios](evidence/ct-010-checkout-campos-vazios.png)
+
+12. CT-011 — Finalizar uma compra com dados válidos
+
+Objetivo: Verificar se o usuário consegue concluir uma compra preenchendo corretamente as informações obrigatórias do checkout.
+
+Pré-condições:
+- Usuário autenticado no sistema.
+- Produto adicionado ao carrinho.
+
+Passos para execução:
+1. Acessar o carrinho de compras.
+2. Clicar em "Checkout".
+3. Preencher First Name, Last Name e Zip/Postal Code com dados fictícios válidos.
+4. Clicar em "Continue".
+5. Conferir o resumo do pedido.
+6. Clicar em "Finish".
+7. Verificar a mensagem de confirmação.
+
+Resultado esperado:
+- O checkout permite avançar com os dados preenchidos.
+- O pedido é concluído.
+- A mensagem "Thank you for your order!" é exibida.
+
+Resultado obtido:
+- Compra finalizada com sucesso e mensagem de confirmação exibida.
+
+Status: Aprovado.
+
+Evidência: [CT-011 — Compra finalizada](evidence/ct-011-compra-finalizada.png)
