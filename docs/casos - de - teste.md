@@ -32,7 +32,7 @@ Login realizado com sucesso e página com produtos exibida.
 
 Status: Aprovado.
 
-Evidência: Não capturada.
+Evidência: evidence/ct-001-login-aprovado.png
 
 Observações: O comportamento observado correspondeu ao resultado esperado.
 
