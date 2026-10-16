@@ -34,7 +34,8 @@ Foi observada uma possível divergência entre os quatro botões visíveis na im
 
 Evidência
 
-Adicionar o caminho da captura de tela correspondente.
+- Captura: `../evidence/ct-004-produtos.png`
+- Caso de teste relacionado: CT-004.
 
 Observações
 
