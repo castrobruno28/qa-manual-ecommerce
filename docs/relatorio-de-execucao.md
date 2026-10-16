@@ -17,12 +17,12 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 
 | Indicador | Resultado |
 |---|---:|
-| Casos executados | 9 |
-| Aprovados | 8 |
+| Casos executados | 10 |
+| Aprovados | 9 |
 | Reprovados | 1 |
 | Bloqueados | 0 |
 | Não executados neste conjunto | 0 |
-| Taxa de aprovação | 88,9% |
+| Taxa de aprovação | 90% |
 
 Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-004, CT-005, CT-006, CT-007, CT-008, CT-009, CT-010, CT-011 e CT-012 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
 
@@ -39,6 +39,7 @@ Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-0
 | CT-007 | Remover produto do carrinho | Produto removido com sucesso e carrinho ficou vazio. | Aprovado |
 | CT-008 | Continuar comprando a partir do carrinho | Retorno à lista de produtos realizado com sucesso e produto mantido no carrinho. | Aprovado |
 | CT-009 | Acessar os detalhes de um produto | Página de detalhes exibida normalmente. | Aprovado |
+| CT-010 | Checkout com campos obrigatórios vazios | Acesso bloqueado e mensagem de validação exibida | Aprovado |
 
 5. Escopo coberto
 
@@ -50,7 +51,8 @@ Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-0
 - Remoção de produto do carrinho
 - Retorno à lista de produtos pelo botão Continue Shopping
 - Acesso à página de detalhes dos produtos
-  
+- Validação de campos obrigatórios no checkout
+
 6. Evidências
 
 As capturas de tela dos testes estão armazenadas na pasta `evidence/`.
@@ -63,6 +65,8 @@ As capturas de tela dos testes estão armazenadas na pasta `evidence/`.
 - CT-006: `evidence/ct-006-produto-adicionado-carrinho.png`
 - CT-007: `evidence/ct-007-produto-removido-carrinho.png`
 - CT-008: `evidence/ct-008-continuar-comprando.png`
+- CT-009: `evidence/ct-009-detalhes-produto.png`
+- CT-010: `evidence/ct-010-checkout-campos-vazios.png`
 
 A captura do CT-004 também é utilizada como evidência compartilhada nos registros BUG-001, BUG-002 e BUG-003, pois apresenta as três divergências observadas.
 
