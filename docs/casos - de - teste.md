@@ -71,19 +71,24 @@ Observações: O comportamento observado correspondeu ao resultado esperado.
 Objetivo: Validar a obrigatoriedade dos campos de autenticação.
 
 Pré-condições:
-A página de login deve estar acessível.
+- A página de login deve estar acessível.
 
 Passos:
 1. Acessar a aplicação.
-2. Deixar usuário e senha vazios.
+2. Deixar os campos de usuário e senha vazios.
 3. Clicar em Login.
 
 Resultado esperado:
-O acesso não deve ser realizado e a aplicação deve informar que o usuário é obrigatório ou apresentar a validação correspondente.
+O acesso não deve ser realizado e a aplicação deve informar que o nome de usuário é obrigatório.
 
-Resultado obtido: A preencher após execução.
+Resultado obtido:
+O acesso foi bloqueado e a aplicação exibiu a mensagem: "Cara triste épica: É necessário nome de usuário."
 
-Status: Não executado.
+Status: Aprovado.
+
+Evidência: Capturada. Arquivo a vincular: `evidence/ct-003-login-campos-vazios.png`.
+
+Observações: O comportamento observado correspondeu ao resultado esperado.
 
 ---
 
