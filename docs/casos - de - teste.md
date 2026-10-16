@@ -124,22 +124,31 @@ Observações: As divergências precisam ser verificadas individualmente e repro
 
 ---
 
-6. CT-005 — Adicionar produto ao carrinho
+6. CT-005 — Ordenação de produtos por preço crescente
 
-Objetivo: Verificar se um produto pode ser adicionado ao carrinho.
+Objetivo: Validar se os produtos são ordenados do menor para o maior preço.
 
 Pré-condições:
-Estar autenticado e na página de produtos.
+- A aplicação deve estar acessível.
+- O usuário deve estar autenticado.
+- A lista de produtos deve estar visível.
 
 Passos:
-1. Selecionar um produto disponível.
-2. Clicar em Add to cart.
-3. Verificar o indicador do carrinho.
-4. Abrir o carrinho.
+1. Acessar a página de produtos.
+2. Localizar o menu de ordenação.
+3. Selecionar `Price (low to high)`.
+4. Verificar os preços apresentados.
+5. Comparar a ordem dos produtos do primeiro ao último.
 
 Resultado esperado:
-O produto selecionado deve aparecer no carrinho e o indicador deve refletir a quantidade de itens, quando aplicável.
+Os produtos devem ser apresentados em ordem crescente de preço.
 
-Resultado obtido: A preencher após execução.
+Resultado obtido:
+A ordenação apresentou o menor preço de US$ 7,99 no início da lista e o maior preço de US$ 49,99 no final.
 
-Status: Não executado.
+Status: Aprovado.
+
+Evidência: Capturada. Registrar o caminho do arquivo após confirmar seu nome no repositório.
+
+Observações: Os extremos da lista corresponderam ao comportamento esperado. A evidência deve ser mantida para comprovar a execução.
+
