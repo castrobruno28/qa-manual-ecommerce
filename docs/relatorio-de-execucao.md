@@ -17,12 +17,12 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 
 | Indicador | Resultado |
 |---|---:|
-| Casos executados | 7 |
-| Aprovados | 6 |
+| Casos executados | 8 |
+| Aprovados | 7 |
 | Reprovados | 1 |
 | Bloqueados | 0 |
 | Não executados neste conjunto | 0 |
-| Taxa de aprovação | 85,7% |
+| Taxa de aprovação | 87,5% |
 
 Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e CT-004 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
 
@@ -37,6 +37,7 @@ Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e 
 | CT-005 | Ordenação de produtos por preço crescente | Menor preço de US$ 7,99 no início e maior de US$ 49,99 no final | Aprovado |
 | CT-006 | Adicionar produto ao carrinho | Aprovado |
 | CT-007 | Remover produto do carrinho | Aprovado |
+| CT-008 | Continuar comprando a partir do carrinho | Aprovado |
 
 5. Escopo coberto
 
@@ -46,6 +47,7 @@ Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e 
 - Ordenação de produtos por preço crescente
 - Adição de produto ao carrinho
 - Remoção de produto do carrinho
+- Retorno à lista de produtos pelo botão Continue Shopping
   
 6. Evidências
 
@@ -58,6 +60,7 @@ As capturas de tela dos testes estão armazenadas na pasta `evidence/`.
 - CT-005: `evidence/ct-005-ordenacao-preco-crescente.png`
 - CT-006: `evidence/ct-006-produto-adicionado-carrinho.png`
 - CT-007: `evidence/ct-007-produto-removido-carrinho.png`
+- CT-008: `evidence/ct-008-continuar-comprando.png`
 
 A captura do CT-004 também é utilizada como evidência compartilhada nos registros BUG-001, BUG-002 e BUG-003, pois apresenta as três divergências observadas.
 
