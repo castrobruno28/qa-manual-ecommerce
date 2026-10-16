@@ -27,9 +27,9 @@ Foi observada uma possível divergência entre a cor da camisa na imagem e a cor
 
 Evidência
 
-- Captura: `../evidence/ct-004-produtos.png`
+- Captura: `../evidence/BUG-001-imagem-descricao-camisa.png`
 - Caso de teste relacionado: CT-004.
-
+- Observação: captura compartilhada entre os três registros de possíveis defeitos.
 
 Observações
 Defeito pendente de confirmação e investigação.
