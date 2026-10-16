@@ -26,7 +26,10 @@ Resultado obtido
 Foi observada uma possível divergência entre a cor da camisa na imagem e a cor informada na descrição.
 
 Evidência
-Adicionar o caminho da captura de tela correspondente.
+
+- Captura: `../evidence/ct-004-produtos.png`
+- Caso de teste relacionado: CT-004.
+
 
 Observações
 Defeito pendente de confirmação e investigação.
