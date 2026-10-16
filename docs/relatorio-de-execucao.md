@@ -17,14 +17,14 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 
 | Indicador | Resultado |
 |---|---:|
-| Casos executados | 8 |
-| Aprovados | 7 |
+| Casos executados | 9 |
+| Aprovados | 8 |
 | Reprovados | 1 |
 | Bloqueados | 0 |
 | Não executados neste conjunto | 0 |
-| Taxa de aprovação | 87,5% |
+| Taxa de aprovação | 88,9% |
 
-Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e CT-004 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
+Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-004, CT-005, CT-006, CT-007, CT-008, CT-009, CT-010, CT-011 e CT-012 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
 
 4. Resultados por caso de teste
 
@@ -38,6 +38,7 @@ Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e 
 | CT-006 | Adicionar produto ao carrinho | Aprovado |
 | CT-007 | Remover produto do carrinho | Aprovado |
 | CT-008 | Continuar comprando a partir do carrinho | Aprovado |
+| CT-009 | Acessar os detalhes de um produto | Aprovado |
 
 5. Escopo coberto
 
@@ -48,6 +49,7 @@ Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e 
 - Adição de produto ao carrinho
 - Remoção de produto do carrinho
 - Retorno à lista de produtos pelo botão Continue Shopping
+- Acesso à página de detalhes dos produtos
   
 6. Evidências
 
