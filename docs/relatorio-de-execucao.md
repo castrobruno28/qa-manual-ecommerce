@@ -17,12 +17,12 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 
 | Indicador | Resultado |
 |---|---:|
-| Casos de teste executados | 3 |
+| Casos executados | 4 |
 | Aprovados | 3 |
-| Reprovados | 0 |
+| Reprovados | 1 |
 | Bloqueados | 0 |
 | Não executados neste conjunto | 0 |
-| Taxa de aprovação | 100% |
+| Taxa de aprovação | 75% |
 
 Observação: os números representam os três casos CT-001, CT-002 e CT-003 relatados como executados. O percentual não representa a cobertura total da aplicação.
 
@@ -33,6 +33,7 @@ Observação: os números representam os três casos CT-001, CT-002 e CT-003 rel
 | CT-001 | Login com credenciais válidas | Página de produtos exibida | Aprovado |
 | CT-002 | Login com senha inválida | Acesso negado e mensagem de erro exibida | Aprovado |
 | CT-003 | Login com campos vazios | Acesso bloqueado e validação de usuário obrigatório exibida | Aprovado |
+| CT-004 | Visualizar lista de produtos | Três possíveis divergências entre imagens e descrições observadas | Reprovado |
 
 5. Escopo coberto
 
@@ -50,9 +51,15 @@ As capturas de tela dos casos executados devem ser armazenadas na pasta `evidenc
 
 Nota: confirmar os nomes e a existência dos arquivos no repositório antes de considerar todas as evidências vinculadas.
 
-7. Defeitos identificados
+7. Defeitos em investigação
 
-Nenhum defeito foi registrado neste conjunto de testes.
+Foram documentadas três possíveis inconsistências durante o CT-004. Os registros permanecem pendentes de confirmação.
+
+- BUG-001: Possível divergência entre a imagem e a descrição da camisa.
+- BUG-002: Possível divergência na quantidade de botões do body infantil.
+- BUG-003: Possível divergência entre a cor aparente da camisa e a cor informada na descrição.
+
+Nenhum desses registros deve ser considerado defeito confirmado até que a ocorrência seja reproduzida e as evidências sejam verificadas.
 
 Isso não comprova ausência de defeitos na aplicação; indica apenas que os três cenários executados apresentaram os comportamentos esperados.
 
