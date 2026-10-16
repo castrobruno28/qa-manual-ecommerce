@@ -17,12 +17,12 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 
 | Indicador | Resultado |
 |---|---:|
-| Casos executados | 4 |
-| Aprovados | 3 |
+| Casos executados | 5 |
+| Aprovados | 4 |
 | Reprovados | 1 |
 | Bloqueados | 0 |
 | Não executados neste conjunto | 0 |
-| Taxa de aprovação | 75% |
+| Taxa de aprovação | 80% |
 
 Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e CT-004 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
 
@@ -34,12 +34,14 @@ Observação: os números representam os quatros casos CT-001, CT-002, CT-003 e 
 | CT-002 | Login com senha inválida | Acesso negado e mensagem de erro exibida | Aprovado |
 | CT-003 | Login com campos vazios | Acesso bloqueado e validação de usuário obrigatório exibida | Aprovado |
 | CT-004 | Visualizar lista de produtos | Três possíveis divergências entre imagens e descrições observadas | Reprovado |
+| CT-005 | Ordenação de produtos por preço crescente | Menor preço de US$ 7,99 no início e maior de US$ 49,99 no final | Aprovado |
 
 5. Escopo coberto
 
 - Autenticação com credenciais válidas
 - Rejeição de senha incorreta
 - Validação de campos obrigatórios no login
+- Ordenação de produtos por preço crescente
 
 6. Evidências
 
