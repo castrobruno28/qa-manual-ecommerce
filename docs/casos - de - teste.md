@@ -235,5 +235,27 @@ Status: Aprovado.
 
 Evidência: [CT-008 — Continuar comprando](evidence/ct-008-continuar-comprando.png)
 
+10. CT-009 — Acessar os detalhes de um produto
 
+Objetivo: Verificar se o usuário consegue acessar a página de detalhes de um produto.
 
+Pré-condições:
+- Usuário autenticado no sistema.
+- Lista de produtos disponível.
+
+Passos para execução:
+1. Localizar o produto "Sauce Labs Backpack".
+2. Clicar no nome ou na imagem do produto.
+3. Verificar as informações exibidas na página de detalhes.
+
+Resultado esperado:
+- A página de detalhes é aberta corretamente.
+- Nome, imagem, descrição e preço do produto são exibidos.
+- O botão "Add to cart" está disponível.
+
+Resultado obtido:
+- A página de detalhes foi exibida normalmente.
+
+Status: Aprovado.
+
+Evidência: [CT-009 — Detalhes do produto](evidence/ct-009-detalhes-produto.png)
