@@ -28,17 +28,17 @@ Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-0
 
 4. Resultados por caso de teste
 
-| ID | Cenário | Resultado | Status |
+| ID | Cenário | Resultado obtido | Status |
 |---|---|---|---|
-| CT-001 | Login com credenciais válidas | Página de produtos exibida | Aprovado |
-| CT-002 | Login com senha inválida | Acesso negado e mensagem de erro exibida | Aprovado |
-| CT-003 | Login com campos vazios | Acesso bloqueado e validação de usuário obrigatório exibida | Aprovado |
-| CT-004 | Visualizar lista de produtos | Três possíveis divergências entre imagens e descrições observadas | Reprovado |
-| CT-005 | Ordenação de produtos por preço crescente | Menor preço de US$ 7,99 no início e maior de US$ 49,99 no final | Aprovado |
-| CT-006 | Adicionar produto ao carrinho | Aprovado |
-| CT-007 | Remover produto do carrinho | Aprovado |
-| CT-008 | Continuar comprando a partir do carrinho | Aprovado |
-| CT-009 | Acessar os detalhes de um produto | Aprovado |
+| CT-001 | Login com credenciais válidas | Login realizado com sucesso e página de produtos exibida. | Aprovado |
+| CT-002 | Login com senha inválida | Acesso negado e mensagem de erro exibida. | Aprovado |
+| CT-003 | Login com campos vazios | Acesso bloqueado e mensagem de validação de usuário obrigatório exibida. | Aprovado |
+| CT-004 | Visualizar lista de produtos | Foram observadas três possíveis divergências entre imagens e descrições de produtos. | Reprovado |
+| CT-005 | Ordenação de produtos por preço crescente | Menor preço (US$ 7,99) exibido no início e maior preço (US$ 49,99) no final da lista. | Aprovado |
+| CT-006 | Adicionar produto ao carrinho | Produto adicionado com sucesso; botão alterado para “Remove” e indicador do carrinho exibindo 1. | Aprovado |
+| CT-007 | Remover produto do carrinho | Produto removido com sucesso e carrinho ficou vazio. | Aprovado |
+| CT-008 | Continuar comprando a partir do carrinho | Retorno à lista de produtos realizado com sucesso e produto mantido no carrinho. | Aprovado |
+| CT-009 | Acessar os detalhes de um produto | Página de detalhes exibida normalmente. | Aprovado |
 
 5. Escopo coberto
 
