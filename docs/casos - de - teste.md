@@ -48,16 +48,21 @@ Pré-condições:
 
 Passos:
 1. Acessar a aplicação.
-2. Informar um usuário válido.
-3. Informar uma senha incorreta.
+2. Informar o usuário `standard_user`.
+3. Informar uma senha incorreta: `senha_errada_123`.
 4. Clicar em Login.
 
 Resultado esperado:
 O acesso deve ser negado e uma mensagem de erro deve ser exibida.
 
-Resultado obtido: A preencher após execução.
+Resultado obtido:
+O acesso foi negado e a aplicação exibiu a mensagem: "Que triste: o nome de usuário e a senha não correspondem a nenhum usuário neste serviço."
 
-Status: Não executado.
+Status: Aprovado.
+
+Evidência: Capturada. Arquivo a vincular: `evidence/ct-002-login-senha-invalida.png`.
+
+Observações: O comportamento observado correspondeu ao resultado esperado.
 
 ---
 
