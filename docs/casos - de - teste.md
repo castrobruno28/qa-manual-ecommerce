@@ -148,7 +148,7 @@ O primeiro produto apresentou o preço de US$ 7,99 e o último, US$ 49,99.
 
 Status: Aprovado.
 
-Evidência: Capturada. Nome do arquivo a confirmar no repositório.
+- Evidência: [CT-005 — Ordenação por preço crescente](evidence/ct-005-ordenacao-preco-crescente.png)
 
 Observações: Os preços inicial e final corresponderam ao comportamento esperado. Recomenda-se verificar também os preços intermediários.
 
