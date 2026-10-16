@@ -94,22 +94,33 @@ Observações: O comportamento observado correspondeu ao resultado esperado.
 
 5. CT-004 — Visualizar a lista de produtos
 
-Objetivo: Validar a exibição dos produtos após autenticação.
+Objetivo: Validar a exibição dos produtos e a consistência entre imagens e descrições.
 
 Pré-condições:
-Estar autenticado com uma conta de demonstração que permita acessar a página de produtos.
+- Aplicação acessível.
+- Usuário autenticado.
 
 Passos:
-1. Realizar login.
-2. Observar a página de produtos.
-3. Verificar nomes, imagens e preços dos itens apresentados.
+1. Realizar login na aplicação.
+2. Acessar a lista de produtos.
+3. Comparar as imagens com as respectivas descrições.
+4. Registrar divergências observadas.
 
 Resultado esperado:
-A lista de produtos deve ser exibida com as informações disponíveis em cada item.
+Os produtos devem apresentar imagens e descrições coerentes entre si, incluindo características visuais e informações sobre o produto.
 
-Resultado obtido: A preencher após execução.
+Resultado obtido:
+Foram observadas três possíveis inconsistências:
 
-Status: Não executado.
+1. Segundo produto: a imagem mostra uma camisa preta, enquanto a descrição informa uma camisa cinza com raio vermelho.
+2. Terceiro produto: a imagem mostra um body infantil com quatro botões de pressão, enquanto a descrição informa três botões na parte inferior.
+3. Sexto produto: a imagem mostra uma camisa laranja, enquanto a descrição informa a cor vermelha.
+
+Status: Reprovado.
+
+Evidência: Capturada. Registrar o nome do arquivo enviado ao GitHub.
+
+Observações: As divergências precisam ser verificadas individualmente e reproduzidas para confirmar os defeitos.
 
 ---
 
