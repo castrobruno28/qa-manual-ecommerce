@@ -34,8 +34,10 @@ Foi observada uma possível divergência entre os quatro botões visíveis na im
 
 Evidência
 
-- Captura: `../evidence/ct-004-produtos.png`
+- Captura: `../evidence/BUG-001-imagem-descricao-camisa.png`
 - Caso de teste relacionado: CT-004.
+- Observação: captura compartilhada entre os três registros de possíveis defeitos.
+
 
 Observações
 
