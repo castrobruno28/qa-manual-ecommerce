@@ -33,7 +33,8 @@ Foi observada uma possível divergência entre a cor aparente da camisa na image
 
 Evidência
 
-Adicionar o caminho da captura de tela correspondente.
+- Captura: `../evidence/ct-004-produtos.png`
+- Caso de teste relacionado: CT-004.
 
 Observações
 
