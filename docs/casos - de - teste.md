@@ -138,17 +138,18 @@ Passos:
 2. Localizar o menu de ordenação.
 3. Selecionar `Price (low to high)`.
 4. Verificar os preços apresentados.
-5. Comparar a ordem dos produtos do primeiro ao último.
+5. Conferir se os produtos estão em ordem crescente.
 
 Resultado esperado:
-Os produtos devem ser apresentados em ordem crescente de preço.
+Os produtos devem ser apresentados do menor para o maior preço.
 
 Resultado obtido:
-A ordenação apresentou o menor preço de US$ 7,99 no início da lista e o maior preço de US$ 49,99 no final.
+O primeiro produto apresentou o preço de US$ 7,99 e o último, US$ 49,99.
 
 Status: Aprovado.
 
-Evidência: Capturada. Registrar o caminho do arquivo após confirmar seu nome no repositório.
+Evidência: Capturada. Nome do arquivo a confirmar no repositório.
 
-Observações: Os extremos da lista corresponderam ao comportamento esperado. A evidência deve ser mantida para comprovar a execução.
+Observações: Os preços inicial e final corresponderam ao comportamento esperado. Recomenda-se verificar também os preços intermediários.
+
 
