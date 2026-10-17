@@ -60,7 +60,7 @@ O acesso foi negado e a aplicação exibiu a mensagem: "Que triste: o nome de us
 
 Status: Aprovado.
 
-Evidência: Capturada. Arquivo a vincular: `evidence/ct-002-login-senha-invalida.png`.
+Evidência: [CT-002 — Login com senha inválida](evidence/ct-002-login-senha-invalido.png)
 
 Observações: O comportamento observado correspondeu ao resultado esperado.
 
@@ -86,7 +86,7 @@ O acesso foi bloqueado e a aplicação exibiu a mensagem: "Cara triste épica: �
 
 Status: Aprovado.
 
-Evidência: Capturada. Arquivo a vincular: `evidence/ct-003-login-campos-vazios.png`.
+Evidência: [CT-003 — Login com campos vazios](evidence/ct-003-login-campos-vazios.png)
 
 Observações: O comportamento observado correspondeu ao resultado esperado.
 
@@ -118,7 +118,7 @@ Foram observadas três possíveis inconsistências:
 
 Status: Reprovado.
 
-Evidência: Capturada. Registrar o nome do arquivo enviado ao GitHub.
+Evidência: [BUG-001 — Divergências entre imagens e descrições](evidence/BUG-001-imagem-descricao-camisa.png)
 
 Observações: As divergências precisam ser verificadas individualmente e reproduzidas para confirmar os defeitos.
 
