@@ -1,4 +1,4 @@
-BUG-001 — Divergência entre imagem e descrição da camisa
+BUG-001 — Divergência entre imagem e descrição do segundo produto
 
 Identificação
 - Projeto: QA Manual — E-commerce
