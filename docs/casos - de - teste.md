@@ -315,3 +315,29 @@ Resultado obtido:
 Status: Aprovado.
 
 Evidência: [CT-011 — Compra finalizada](evidence/ct-011-compra-finalizada.png)
+
+13. CT-012 — Cancelar checkout e retornar aos produtos
+
+Objetivo: Verificar se o usuário consegue cancelar o checkout e retornar à lista de produtos.
+
+Pré-condições:
+- Usuário autenticado no sistema.
+- Produto adicionado ao carrinho.
+- Tela de informações do checkout aberta.
+
+Passos para execução:
+1. Acessar o carrinho.
+2. Clicar em "Checkout".
+3. Na tela "Checkout: Your Information", clicar em "Cancel".
+4. Verificar a página exibida após o cancelamento.
+
+Resultado esperado:
+- O sistema retorna à lista de produtos.
+- A página é exibida normalmente, sem erros visíveis.
+
+Resultado obtido:
+- O sistema retornou à lista de produtos normalmente.
+
+Status: Aprovado.
+
+Evidência: [CT-012 — Cancelar checkout](evidence/ct-012-cancelar-checkout.png)
