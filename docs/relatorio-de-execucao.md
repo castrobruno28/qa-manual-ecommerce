@@ -17,12 +17,12 @@ Consolidar os resultados dos testes executados na funcionalidade de autenticaç�
 
 | Indicador | Resultado |
 |---|---:|
-| Casos executados | 11 |
-| Aprovados | 10 |
+| Casos executados | 12 |
+| Aprovados | 11 |
 | Reprovados | 1 |
 | Bloqueados | 0 |
 | Não executados neste conjunto | 0 |
-| Taxa de aprovação | 90,9% |
+| Taxa de aprovação | 91,7% |
 
 Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-004, CT-005, CT-006, CT-007, CT-008, CT-009, CT-010, CT-011 e CT-012 relatados como executados. A taxa de aprovação representa apenas os casos executados neste conjunto, não a cobertura total da aplicação.
 
@@ -41,6 +41,7 @@ Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-0
 | CT-009 | Acessar os detalhes de um produto | Página de detalhes exibida normalmente. | Aprovado |
 | CT-010 | Checkout com campos obrigatórios vazios | Acesso bloqueado e mensagem de validação exibida | Aprovado |
 | CT-011 | Finalizar uma compra com dados válidos | Compra concluída e mensagem de confirmação exibida | Aprovado |
+| CT-012 | Cancelar checkout e retornar aos produtos | Retorno à lista de produtos realizado normalmente | Aprovado |
 
 5. Escopo coberto
 
@@ -54,6 +55,7 @@ Observação: os números representam os doze casos CT-001, CT-002, CT-003, CT-0
 - Acesso à página de detalhes dos produtos
 - Validação de campos obrigatórios no checkout
 - Finalização de compra com dados válidos
+- Cancelamento do checkout e retorno à lista de produtos
   
 6. Evidências
 
@@ -70,6 +72,7 @@ As capturas de tela dos testes estão armazenadas na pasta `evidence/`.
 - CT-009: `evidence/ct-009-detalhes-produto.png`
 - CT-010: `evidence/ct-010-checkout-campos-vazios.png`
 - CT-011: `evidence/ct-011-compra-finalizada.png`
+- CT-012: `evidence/ct-012-cancelar-checkout.png`
 
 A captura do CT-004 também é utilizada como evidência compartilhada nos registros BUG-001, BUG-002 e BUG-003, pois apresenta as três divergências observadas.
 
