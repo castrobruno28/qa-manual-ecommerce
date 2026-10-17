@@ -11,7 +11,7 @@ Relatório de Execução de Testes — SauceDemo
 
 2. Objetivo
 
-Consolidar os resultados dos testes executados na funcionalidade de autenticação, comparando os resultados observados com os resultados esperados.
+Consolidar os resultados dos testes executados nas funcionalidades de autenticação, visualização e ordenação de produtos, gerenciamento do carrinho e checkout, comparando os resultados observados com os resultados esperados.
 
 3. Resumo da execução
 
