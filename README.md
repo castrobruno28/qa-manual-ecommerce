@@ -44,7 +44,7 @@ Estrutura do projeto
 - `docs/casos-de-teste.md` — cenários, passos, resultados esperados e obtidos.
 - `docs/relatorio-de-execucao.md` — resumo e resultados da execução.
 - `docs/evidence/` — capturas de tela utilizadas como evidências.
-- `docs/bug-reports/` — documentação dos possíveis defeitos identificados.
+- `bug-reports/` — documentação dos possíveis defeitos identificados.
 
 Como navegar pelo projeto
 
